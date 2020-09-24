@@ -27,7 +27,7 @@ class Footer extends Component {
                   title="Styleshout"
                   href="http://www.styleshout.com/"
                 >
-                  Dazz
+                  Dazzz
                 </a>
               </li>
             </ul>
