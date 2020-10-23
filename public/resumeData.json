@@ -2,10 +2,10 @@
   "main": {
     "name": "Pratik S. Sutar",
     "resumedownload": "images/PratikSSutar.pdf",
-    "occupation": "ReactJS Developer",
+    "occupation": "Developer",
     "description": "Full Stack React Developer.",
     "image": "pratiksutar.jpeg",
-    "bio": "My name is Pratik, I'm a Full Stack ReactJS Developer.",
+    "bio": "My name is Pratik, I'm a Developer...",
     "contactmessage": "Get in touch with me.",
     "email": "pratiksutar1901@gmail.com",
     "phone": "+91 951 874 9311",
@@ -39,7 +39,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Here are some of m skill sets",
     "education": [
       {
         "school": "Modern College Of Arts, Commerce And Science, Shivajinagar, Pune-5",
