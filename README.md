@@ -3,7 +3,7 @@
 
 ![ReactJS Resume Website Template](
 
-## <a style="font-family:chiller;" href="https://pratiksutar.netlify.app/">LIVE DEMO</a>
+## <a href="https://pratiksutar.netlify.app/">LIVE DEMO</a>
 
 ## Description
 This is a ReactJS based personal resume website
