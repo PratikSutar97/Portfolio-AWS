@@ -3,9 +3,9 @@
     "name": "Pratik S. Sutar",
     "resumedownload": "images/PratikSSutar.pdf",
     "occupation": "Developer",
-    "description": "Full Stack React Developer.",
+    "description": "MEAN STACK Developer.",
     "image": "pratiksutar.jpeg",
-    "bio": "My name is Pratik, I'm a Developer...",
+    "bio": "I am Pratik, I’m a frontend and backend developer, and I have knowledge about MEAN STACK ,CSS & HTML that just work across all platforms and browsers. Also I know C, Java, Javascript. Some databases like MySql , MongoDB.  I care deeply about building interfaces that are usable for the users.",
     "contactmessage": "Get in touch with me.",
     "email": "pratiksutar1901@gmail.com",
     "phone": "+91 951 874 9311",
@@ -56,6 +56,14 @@
     ],
     "skills": [
       {
+        "name": "C",
+        "level": "70%"
+      },
+      {
+        "name": "Java",
+        "level": "60%"
+      },
+      {
         "name": "ReactJs",
         "level": "30%"
       },
@@ -84,12 +92,8 @@
         "level": "70%"
       },
       {
-        "name": "Java",
-        "level": "50%"
-      },
-      {
         "name": "Angular",
-        "level": "50%"
+        "level": "60%"
       }
     ]
   },
