@@ -2,8 +2,8 @@
   "main": {
     "name": "Pratik S. Sutar",
     "resumedownload": "images/PratikSSutar.pdf",
-    "occupation": "Developer",
-    "description": "MEAN STACK Developer.",
+    "occupation": "MEAN STACK Developer",
+    "description": "",
     "image": "pratiksutar.jpeg",
     "bio": "I am Pratik, I’m a frontend and backend developer, and I have knowledge about MEAN STACK ,CSS & HTML that just work across all platforms and browsers. Also I know C, Java, Javascript. Some databases like MySql , MongoDB.  I care deeply about building interfaces that are usable for the users.",
     "contactmessage": "Get in touch with me.",
