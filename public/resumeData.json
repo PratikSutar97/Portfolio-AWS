@@ -2,10 +2,10 @@
   "main": {
     "name": "Pratik S. Sutar",
     "resumedownload": "images/PratikSSutar.pdf",
-    "occupation": "MEAN STACK Developer",
+    "occupation": ".NET Developer",
     "description": "",
     "image": "pratiksutar.jpeg",
-    "bio": "I am Pratik, I’m a frontend and backend developer, and I have knowledge about MEAN STACK ,CSS & HTML that just work across all platforms and browsers. Also I know C, Java, Javascript. Some databases like MySql , MongoDB.  I care deeply about building interfaces that are usable for the users.",
+    "bio": "I am Pratik, I’m software developer. Currently working as Project Engineer at Wipro Ltd., having 3 years of experience in .NET, C#, SSMS, Javascript, HTML, CSS. I care deeply about building interfaces that are usable for the users.",
     "contactmessage": "Get in touch with me.",
     "email": "pratiksutar1901@gmail.com",
     "phone": "+91 951 874 9311",
@@ -28,7 +28,7 @@
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/pratiksutar0105/",
+        "url": "https://www.instagram.com/me_pratik.s.s/",
         "className": "fa fa-instagram"
       },
       {
