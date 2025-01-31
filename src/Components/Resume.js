@@ -26,17 +26,17 @@ class Resume extends Component {
       <section id="resume">
 
           <div className="row experience">
-          <div className="three columns header-col">
-            <h1><span>Experience</span></h1>
-          </div>
+            <div className="three columns header-col">
+              <h1><span>Experience</span></h1>
+            </div>
 
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">
-                {experience}
+            <div className="nine columns main-col">
+              <div className="row item">
+                <div className="twelve columns">
+                  {experience}
+                </div>
               </div>
             </div>
-          </div>
         </div>
       
         <div className="row education">
