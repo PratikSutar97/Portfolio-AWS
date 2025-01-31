@@ -56,28 +56,28 @@
     ],
     "skills": [
       {
-        "name": "C",
+        "name": ".NET",
         "level": "70%"
       },
       {
-        "name": "Java",
-        "level": "60%"
+        "name": "C#",
+        "level": "70%"
       },
       {
-        "name": "ReactJs",
-        "level": "30%"
-      },
-      {
-        "name": "CSS",
-        "level": "55%"
-      },
-      {
-        "name": "Git",
-        "level": "30%"
+        "name": "Javascript",
+        "level": "80%"
       },
       {
         "name": "HTML5",
+        "level": "85%"
+      },
+      {
+        "name": "CSS",
         "level": "80%"
+      },
+      {
+        "name": "Angular",
+        "level": "50%"
       },
       {
         "name": "MongoDB",
@@ -85,14 +85,14 @@
       },
       {
         "name": "NodeJs",
-        "level": "50%"
+        "level": "60%"
       },
       {
-        "name": "PHP",
-        "level": "70%"
+        "name": "Flutter",
+        "level": "60%"
       },
       {
-        "name": "Angular",
+        "name": "DART",
         "level": "60%"
       }
     ]
@@ -108,6 +108,12 @@
       {
         "title": "FriendsKatta",
         "category": "Facebook like website using (html5,php,javascript,postgresql)"
+      },
+      {
+        "title": "FAVOURONIX",
+        "category": "Do a favour and earn rewards.",
+        "image":"favouronix.png",
+        "url":"https://oweafavour.netlify.app/",
       }
     ]
   },
