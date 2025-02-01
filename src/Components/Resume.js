@@ -5,12 +5,7 @@ class Resume extends Component {
 
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
-      // var experience = this.props.data.experience.map(function (experience) { 
-      //   return <div key={experience.company}><h3>{education.company}</h3>
-      //       <p className='info'>{experience.designation}<br/>
-      //       {experience.responsibilities}</p>        
-      //   </div>
-      //  })
+     
       var education = this.props.data.education.map(function (education) {
         return <div key={education.school}><h3>{education.school}</h3>
           <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -39,7 +34,7 @@ class Resume extends Component {
           </div>
         </div>
        */}
-        <div className="row x">
+        <div className="row education">
           <div className="three columns header-col">
             <h1><span>Education</span></h1>
           </div>
