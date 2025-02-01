@@ -11,16 +11,6 @@ class Header extends Component {
          var networks = this.props.data.social.map(function (network) {
             return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
          })
-         var company = this.props.data.company;
-         var title=this.props.data.title;
-         // var experience = this.props.data.experience.map(function (experience) {
-         //    return <div key={experience.company}><h3>{experience.company}</h3>
-         //      <p className="info">{experience.title}<span>&bull;</span> <em className="date">{experience.years}</em></p>
-         //      <p>
-         //        {experience.description}
-         //      </p>
-         //    </div>
-         //  })
       }
 
       return (
@@ -50,9 +40,6 @@ class Header extends Component {
                   <ul className="social">
                      {networks}
                   </ul>
-                  <h1> Experience :-
-          {company}
-          Title :- {title}</h1>
                </div>
             </div>
             

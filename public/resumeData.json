@@ -15,13 +15,6 @@
       "state": "India",
       "zip": "411004"
     },
-    
-        "company": "Wipro Ltd.",
-        "title": "Project Engineer",
-        "years": "2020 - Present",
-        "workdescription": "Working as Project Engineer at Wipro Ltd., having 3 years of experience in .NET, C#, SSMS, Javascript, HTML, CSS."
-      
-    ,
     "social": [
       {
         "name": "facebook",
@@ -47,7 +40,6 @@
   },
   "resume": {
     "skillmessage": "Here are some of m skill sets",
-    
     "education": [
       {
         "school": "Modern College Of Arts, Commerce And Science, Shivajinagar, Pune-5",
