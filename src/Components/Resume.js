@@ -29,6 +29,7 @@ class Resume extends Component {
       
         <div className="row experience">
           experience
+          {experience.company}
         </div>
         <div className="row education">
           <div className="three columns header-col">
