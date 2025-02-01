@@ -40,13 +40,6 @@
   },
   "resume": {
     "skillmessage": "Here are some of m skill sets",
-    "experience":[
-      {
-        "company":"Wipro Ltd.",
-        "designation":"Project Engineer (From Nov 2021 - currently working)",
-        "responsibilities":".NET Developer, supporting 3 web based .NET applications fixing bugs, resolving clients/end users issues related to bugs or service improvement enhancements"  
-      }
-    ],
     "education": [
       {
         "school": "Modern College Of Arts, Commerce And Science, Shivajinagar, Pune-5",
