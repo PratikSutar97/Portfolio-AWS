@@ -50,15 +50,12 @@ class Header extends Component {
                   <ul className="social">
                      {networks}
                   </ul>
+                  <h1> Experience :-
+          {company}
+          Title</h1>
                </div>
             </div>
-            <div>
-            <div className="row experience">
-          Experience :-
-          {company}
-          Title :- {title}
-        </div>
-            </div>
+            
 
             <p className="scrolldown">
                <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
