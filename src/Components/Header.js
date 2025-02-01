@@ -52,7 +52,7 @@ class Header extends Component {
                   </ul>
                   <h1> Experience :-
           {company}
-          Title</h1>
+          Title :- {title}</h1>
                </div>
             </div>
             
