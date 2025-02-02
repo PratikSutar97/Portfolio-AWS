@@ -6,7 +6,7 @@ const Contact = ({ data }) => {
    const [subject, setSubject] = useState('');
    const [email, setEmail] = useState('');
    const [message, setMessage] = useState('');
-   const porfolio="----------- Portfolio";
+   const portfolio="----------- Portfolio";
 
    console.log(data)
 
