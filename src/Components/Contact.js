@@ -11,7 +11,7 @@ const Contact = ({ data }) => {
 
    const handleClick = (e) => {
       e.preventDefault();
-      window.open(`mailto:pratiksutar1901@gmail.com?subject=${subject}&body=${name}: ${message}`);
+      window.open(`mailto:pratiksutar1901@gmail.com?subject=${subject}&body=${name}: ${message}+-------/nportfolio`);
    }
 
 
