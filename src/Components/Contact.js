@@ -6,12 +6,13 @@ const Contact = ({ data }) => {
    const [subject, setSubject] = useState('');
    const [email, setEmail] = useState('');
    const [message, setMessage] = useState('');
+   const porfolio="----------- Portfolio";
 
    console.log(data)
 
    const handleClick = (e) => {
       e.preventDefault();
-      window.open(`mailto:pratiksutar1901@gmail.com?subject=${subject}&body=${message}/n-------/nportfolio`);
+      window.open(`mailto:pratiksutar1901@gmail.com?subject=${subject}&body=${message}/n ${portfolio}`);
    }
 
 
