@@ -3,17 +3,17 @@
     "name": "Pratik S. Sutar",
     "resumedownload": "images/Pratik_S_Sutar_Resume.pdf",
     "occupation": ".NET Developer",
-    "description": " Currently working as Project Engineer at Wipro Ltd., having 3 years of experience in .NET, C#, SSMS, Javascript, HTML, CSS.",
+    "description": "Software Developer with 3 years of support role experience in ASP .NET Core, C#, and JavaScript,HTML ,CSS. Worked on deployment to Azure Devops Repos.Strong problem-solving abilities, and a team-oriented approach to building scalable applications.",
     "image": "pratiksutar.jpeg",
-    "bio": "Hello I am Pratik, I’m software developer. Currently working as Project Engineer at Wipro Ltd., having 3 years of experience in .NET, C#, SSMS, Javascript, HTML, CSS. I care deeply about building interfaces that are usable for the users.",
+    "bio": "Software developer with 3 years of experience in ASP.NET Core, C#, SSMS, Javascript, HTML, CSS. I care deeply about building interfaces that are usable for the users.",
     "contactmessage": "Get in touch with me.",
     "email": "pratiksutar1901@gmail.com",
     "phone": "+91 951 874 9311",
     "address": {
       "street": "Hinjawadi Phase 1",
-      "city": "Pune, Pimpri-Chinchwad 411057",
+      "city": "Pune",
       "state": "Maharashtra ,India",
-      "zip": ""
+      "zip": "411057"
     },
     "social": [
       {
@@ -23,7 +23,7 @@
       },
       {
         "name": "linkedin",
-        "url": "www.linkedin.com/in/pratiksutar1901",
+        "url": "https://www.linkedin.com/in/pratiksutar1901",
         "className": "fa fa-linkedin"
       },
       {
@@ -39,7 +39,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here are some of m skill sets",
+    "skillmessage": "Here are some of my skill sets",
     "education": [
       {
         "school": "Modern College Of Arts, Commerce And Science, Shivajinagar, Pune-5",
