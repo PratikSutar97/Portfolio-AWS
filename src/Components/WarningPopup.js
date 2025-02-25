@@ -19,7 +19,7 @@ const WarningPopup = () => {
   return (
     <div style={styles.overlay}>
       <div style={styles.popup}>
-        <h2>Warning!</h2>
+        <h2>Request !!</h2>
         <p>This site is best viewed on a desktop or laptop.</p>
         <button onClick={() => setIsDismissed(true)} style={styles.button}>
           Close this message
