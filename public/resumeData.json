@@ -40,6 +40,20 @@
   },
   "resume": {
     "skillmessage": "Here are some of my skill sets",
+    "experience":[
+      {
+        "company": "Wipro Ltd. ,  Nov 2021 - Feb 2025",
+        "title": " ASP .NET Developer Application Support",
+        "responsibilities": "Technologies Used - ASP .NET Core, C#, HTML , CSS , JAVASCRIPT , Azure Repos Deployment, SQL Server Management Studio.\nWorked on Enhancements, Bug Fixes and Service Improvement Changes in application.\nConducted unit testing, debugging to identify and resolve issues.\nManaged source code using Azure DevOps CI/CD pipelines to automate the build and deployment process.",
+        "achievements": "Successful deployments of bug fixes, enhancements, new features.\nReduced production issues through unit testing. \nProvided timely technical support, reducing downtime andLearned to collaborate with the team, completing crucial tasks and maintaining deadlines."
+      },
+      {
+        "company": "Rexx Media Pvt Ltd, Jan 2021 - June 2021 (Internship)",
+        "title": "Mobile Application Developer Intern",
+        "responsibilities": "Technologies Used - Flutter , Dart. \nDeveloped and maintained mobile applications using Flutter and Dart, enhancing user experience with responsive and visually appealing interfaces.\nCollaborated with senior developers to design and implement new features, including user authentication, push notifications, and data synchronization. \nConducted unit tests and participated in code reviews to ensure high-quality code and application performance.",
+        "achievements": "Learned and gained knowledge of Flutter framework and Dart Language. "
+      }
+    ],
     "education": [
       {
         "school": "Modern College Of Arts, Commerce And Science, Shivajinagar, Pune-5",
