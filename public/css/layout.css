@@ -58,8 +58,8 @@ header .banner {
 
 header .banner-text { width: 100%; background-color: rgba(0, 0, 0, 0.575);}
 header .banner-text h2 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #d4d4d4;
+   font: 90px/1.4em 'opensans-bold', sans-serif;
+   color: #ffffff;
    font-size: 3.5em;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
