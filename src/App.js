@@ -7,6 +7,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+import WarningPopup from './Components/WarningPopup';
 
 class App extends Component {
 
@@ -40,6 +41,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <WarningPopup />
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
