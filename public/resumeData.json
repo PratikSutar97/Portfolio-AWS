@@ -1,9 +1,9 @@
 {
   "main": {
     "name": "Pratik S. Sutar",
-    "resumedownload": "images/Pratik_S_Sutar_Resume.pdf",
-    "occupation": ".NET Developer",
-    "description": "Software Developer with 3 years of support role experience in ASP .NET Core, C#, and JavaScript,HTML ,CSS. Worked on deployment to Azure Devops Repos.Strong problem-solving abilities, and a team-oriented approach to building scalable applications.",
+    "resumedownload": "images/PratikSutar_DOTNET_resume.pdf",
+    "occupation": "ASP.NET Core Developer",
+    "description": "with 3 years of application support experience in ASP .NET Core, C#, and JavaScript,HTML ,CSS. Worked on deployment to Azure Devops Repos. Upskilling in Angular and Azure DevOps. Strong problem-solving abilities, and a team-oriented approach to building scalable applications.",
     "image": "pratiksutar.jpeg",
     "bio": "Software developer with 3 years of experience in ASP.NET Core, C#, SSMS, Javascript, HTML, CSS. I care deeply about building interfaces that are usable for the users.",
     "contactmessage": "Get in touch with me.",
