@@ -3,7 +3,7 @@
     "name": "Pratik S. Sutar",
     "resumedownload": "images/PratikSutar_DOTNET_resume.pdf",
     "occupation": "ASP.NET Core Developer",
-    "description": "with 3 years of application support experience in ASP .NET Core, C#, and JavaScript,HTML ,CSS. Worked on deployment to Azure Devops Repos. Upskilling in Angular and Azure DevOps. Strong problem-solving abilities, and a team-oriented approach to building scalable applications.",
+    "description": "with 3 years of application support experience in ASP .NET Core, C#, and JavaScript,HTML ,CSS. Worked on deployment to Azure Cloud. Upskilling in ReactJs and Azure DevOps. Strong problem-solving abilities and a team-oriented approach to building scalable applications.",
     "image": "pratiksutar.jpeg",
     "bio": "Software developer with 3 years of experience in ASP.NET Core, C#, SSMS, Javascript, HTML, CSS. I care deeply about building interfaces that are usable for the users.",
     "contactmessage": "Get in touch with me.",
@@ -44,7 +44,7 @@
       {
         "company": "Wipro Ltd. ,  Nov 2021 - Feb 2025",
         "title": " ASP .NET Developer Application Support",
-        "responsibilities": "Technologies Used - ASP .NET Core, C#, HTML , CSS , JAVASCRIPT , Azure Repos Deployment, SQL Server Management Studio.\nWorked on Enhancements, Bug Fixes and Service Improvement Changes in application.\nConducted unit testing, debugging to identify and resolve issues.\nManaged source code using Azure DevOps CI/CD pipelines to automate the build and deployment process.",
+        "responsibilities": "Technologies Used - ASP .NET Core, C#, HTML , CSS , JAVASCRIPT , Azure Cloud, SQL Server Management Studio.\nWorked on Enhancements, Bug Fixes and Service Improvement Changes in application.\nConducted unit testing, debugging to identify and resolve issues.\nManaged source code using Azure DevOps CI/CD pipelines to automate the build and deployment process.",
         "achievements": "Successful deployments of bug fixes, enhancements, new features.\nReduced production issues through unit testing. \nProvided timely technical support, reducing downtime andLearned to collaborate with the team, completing crucial tasks and maintaining deadlines."
       },
       {
