@@ -70,16 +70,20 @@
     ],
     "skills": [
       {
-        "name": ".NET",
-        "level": "70%"
+        "name": "ASP.NET Core",
+        "level": "65%"
       },
       {
         "name": "C#",
+        "level": "65%"
+      },
+      {
+        "name": "SSMS, SQL, Stored Procedures, Functions",
         "level": "70%"
       },
       {
         "name": "Javascript",
-        "level": "80%"
+        "level": "60%"
       },
       {
         "name": "HTML5",
@@ -95,10 +99,6 @@
       },
       {
         "name": "MongoDB",
-        "level": "60%"
-      },
-      {
-        "name": "NodeJs",
         "level": "60%"
       }
     ]
