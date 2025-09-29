@@ -1,35 +1,45 @@
 version: 0.2
 
-# Set an environment variable that can be used below in the build phases.
-# env is Optional
 env:
   variables:
-    INSTANCE_TYPE: "t2.micro"
+    SDLC_ENV: "$1"  # Value can dev/qa/prod
+    TF_COMMAND: "$2" # Value can apply/destroy
+    TERRAFORM_VERSION: "1.10.5"
+  # Required if you want to retrieve custom environment variables stored in AWS Systems Manager Parameter Store.
+  # parameter-store:
+  #   TF_CLOUD_TOKEN: "TF_CLOUD_TOKEN"
+  # Required if you want to retrieve custom environment variables stored in AWS Secrets Manager. Specify a Secrets Manager reference-key using the following pattern:
+  # secrets-manager:
+  #   TF_CLOUD_TOKEN: "TF_CLOUD_Secret:MY_SECRET_VAR"
+    # <key>: <secret-id>:<json-key>:<version-stage>:<version-id>
+
 phases:
   install:
+    runtime-versions:
+      python: 3.11
+    on-failure: ABORT
     commands:
-      - echo Entered the install phase
-      # - apt-get update -y
-    # Commands specified in a finally block are run after commands in the commands block. The commands in a finally block are run even if a command in the commands block fails.
-    finally:
-      - echo This always runs even if the update or install command fails
+      - tf_version=$TERRAFORM_VERSION
+      - wget https://releases.hashicorp.com/terraform/"$TERRAFORM_VERSION"/terraform_"$TERRAFORM_VERSION"_linux_amd64.zip
+      - ls -ltr
+      - unzip -o terraform_"$TERRAFORM_VERSION"_linux_amd64.zip
+      - mv terraform /usr/local/bin/
   pre_build:
+    on-failure: ABORT
     commands:
-      - echo Entered the pre_build phase...
+      - echo terraform execution started on `date`
   build:
+    on-failure: ABORT
     commands:
-      - ls -altr
-      - printenv
-      - echo $INSTANCE_TYPE
-      - echo $AWS_REGION
-      - echo $CODEBUILD_BUILD_NUMBER
-      - echo Entered the build phase...
-      - echo Build started on `date`
-      - aws ec2 describe-instances
-      - aws ec2 describe-security-groups
-    finally:
-      - echo This always runs even if the build command fails
+      - ls -lrt "$CODEBUILD_SRC_DIR/terraform-manifests"
+      - terraform --version
+      - cd "$CODEBUILD_SRC_DIR/terraform-manifests/$SDLC_ENV"
+      - terraform init
+      - terraform validate
+      - terraform plan
+      - terraform $TF_COMMAND -auto-approve
+      # - terraform $TF_COMMAND -input=false -var-file=dev.tfvars -auto-approve
   post_build:
+    on-failure: CONTINUE
     commands:
-      - echo Entered the post_build phase...
-      - echo Build completed on `date`
+      - echo terraform execution completed on `date`
