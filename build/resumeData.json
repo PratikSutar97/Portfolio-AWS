@@ -1,0 +1,118 @@
+{
+  "main": {
+    "name": "Pratik S. Sutar",
+    "resumedownload": "images/PratikSSutar.pdf",
+    "occupation": "Developer",
+    "description": "Full Stack React Developer.",
+    "image": "pratiksutar.jpeg",
+    "bio": "My name is Pratik, I'm a Developer...",
+    "contactmessage": "Get in touch with me.",
+    "email": "pratiksutar1901@gmail.com",
+    "phone": "+91 951 874 9311",
+    "address": {
+      "street": "Fc Road",
+      "city": "Pune",
+      "state": "India",
+      "zip": "411004"
+    },
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/pratik.sutar.97/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "www.linkedin.com/in/pratiksutar1901",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/pratiksutar0105/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/PratikSutar97",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here are some of m skill sets",
+    "education": [
+      {
+        "school": "Modern College Of Arts, Commerce And Science, Shivajinagar, Pune-5",
+        "degree": "Master's in Computer Application",
+        "graduated": "Expected in 2021",
+        "description": "Pursuing"
+      },
+      {
+        "school": "Fergusson College, Pune",
+        "degree": "Bachelor's in Computer Science",
+        "graduated": "2019",
+        "description": "Graduated with 8.01 CGPA"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "30%"
+      },
+      {
+        "name": "CSS",
+        "level": "55%"
+      },
+      {
+        "name": "Git",
+        "level": "30%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "60%"
+      },
+      {
+        "name": "NodeJs",
+        "level": "50%"
+      },
+      {
+        "name": "PHP",
+        "level": "70%"
+      },
+      {
+        "name": "Java",
+        "level": "50%"
+      },
+      {
+        "name": "Angular",
+        "level": "50%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Dialysis Microcenters",
+        "category": "Small Dialysis Centers in Villages for quick treatment of patients. ",
+        "image": "microcenter.png",
+        "url": "http://dialysis-microcenters.000webhostapp.com/"
+      },
+      {
+        "title": "FriendsKatta",
+        "category": "Facebook like website using (html5,php,javascript,postgresql)"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "I totally am inspired by your dedication . I am happy to give you 5 stars. Thankyou mate",
+        "user": "Chreshell - Australia"
+      }
+    ]
+  }
+}

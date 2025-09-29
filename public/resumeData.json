@@ -1,0 +1,134 @@
+{
+  "main": {
+    "name": "Pratik S. Sutar",
+    "resumedownload": "images/PratikSutar_DOTNET_resume.pdf",
+    "occupation": "FullStack .NET, Angular Developer",
+    "description": "with  3 years in ASP .NET Core, C#, SSMS, Microsoft SQL Server, JavaScript, HTML, CSS also 1 year of experience in Angular. Successfully developed and deployed code to Azure Cloud. Strong problem-solving abilities, and a team-oriented approach to building scalable applications.",
+    "image": "pratiksutar.jpeg",
+    "bio": "FullStack Developer with total 3.2 years of experience and 3 years in ASP .NET Core, C#, SSMS, Microsoft SQL Server, JavaScript, HTML, CSS also 1 year of experience in Angular. Successfully developed and deployed code to Azure Cloud. Strong problem-solving abilities, and a team-oriented approach to building scalable applications.",
+    "contactmessage": "Get in touch with me.",
+    "email": "pratiksutar1901@gmail.com",
+    "phone": "+91 951 874 9311",
+    "address": {
+      "street": "Hinjawadi Phase 1",
+      "city": "Pune",
+      "state": "Maharashtra ,India",
+      "zip": "411057"
+    },
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/pratik.sutar.97/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/pratiksutar1901",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/me_pratik.s.s/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/PratikSutar97",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here are some of my skill sets",
+    "experience":[
+      {
+        "company": "Wipro Ltd. ,  Nov 2021 - Feb 2025",
+        "title": " ASP .NET Developer Application Support",
+        "responsibilities": "Technologies Used - ASP .NET Core, C#, HTML , CSS , JAVASCRIPT , Azure Cloud, SQL Server Management Studio.\nWorked on Enhancements, Bug Fixes and Service Improvement Changes in application.\nConducted unit testing, debugging to identify and resolve issues.\nManaged source code using Azure DevOps CI/CD pipelines to automate the build and deployment process.",
+        "achievements": "Successful deployments of bug fixes, enhancements, new features.\nReduced production issues through unit testing. \nProvided timely technical support, reducing downtime andLearned to collaborate with the team, completing crucial tasks and maintaining deadlines."
+      },
+      {
+        "company": "Rexx Media Pvt Ltd, Jan 2021 - June 2021 (Internship)",
+        "title": "Mobile Application Developer Intern",
+        "responsibilities": "Technologies Used - Flutter , Dart. \nDeveloped and maintained mobile applications using Flutter and Dart, enhancing user experience with responsive and visually appealing interfaces.\nCollaborated with senior developers to design and implement new features, including user authentication, push notifications, and data synchronization. \nConducted unit tests and participated in code reviews to ensure high-quality code and application performance.",
+        "achievements": "Learned and gained knowledge of Flutter framework and Dart Language. "
+      }
+    ],
+    "education": [
+      {
+        "school": "Modern College Of Arts, Commerce And Science, Shivajinagar, Pune-5",
+        "degree": "Master's in Computer Application",
+        "graduated": "2021",
+        "description": "Graduated with 9.82 CGPA"
+      },
+      {
+        "school": "Fergusson College, Pune",
+        "degree": "Bachelor's in Computer Science",
+        "graduated": "2019",
+        "description": "Graduated with 8.01 CGPA"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ASP.NET Core",
+        "level": "65%"
+      },
+      {
+        "name": "C#",
+        "level": "65%"
+      },
+      {
+        "name": "SSMS, SQL, Stored Procedures, Functions",
+        "level": "70%"
+      },
+      {
+        "name": "Javascript",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "85%"
+      },
+      {
+        "name": "CSS",
+        "level": "80%"
+      },
+      {
+        "name": "Angular",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Dialysis Microcenters",
+        "category": "Small Dialysis Centers in Villages for quick treatment of patients. ",
+        "image": "microcenter.png",
+        "url": "http://dialysis-microcenters.000webhostapp.com/"
+      },
+      {
+        "title": "FriendsKatta",
+        "category": "Facebook like website using (html5,php,javascript,postgresql)"
+      },
+      {
+        "title": "FAVOURONIX",
+        "category": "Do a favour and earn rewards.",
+        "image":"favouronix.png",
+        "url":"https://oweafavour.netlify.app/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "I totally am inspired by your dedication . I am happy to give you 5 stars. Thankyou mate",
+        "user": "Chreshell - Australia"
+      }
+    ]
+  }
+}
