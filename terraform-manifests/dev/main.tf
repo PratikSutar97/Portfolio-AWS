@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "aws" {
-    region = "us-west-1"
+    region = "ap-south-1"
 }
 
 module "infra_services" {
@@ -25,3 +25,4 @@ module "infra_services" {
   bucket_acl  = "private"
   instance_key_name = "key-pair"
 }
+
