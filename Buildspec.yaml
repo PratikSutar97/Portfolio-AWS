@@ -26,6 +26,7 @@ phases:
       - echo Entered the build phase...
       - echo Build started on `date`
       - aws ec2 describe-instances
+      - aws ec2 describe-security-groups
     finally:
       - echo This always runs even if the build command fails
   post_build:
