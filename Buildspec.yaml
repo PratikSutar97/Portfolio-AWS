@@ -1,0 +1,34 @@
+version: 0.2
+
+# Set an environment variable that can be used below in the build phases.
+# env is Optional
+env:
+  variables:
+    INSTANCE_TYPE: "t2.micro"
+phases:
+  install:
+    commands:
+      - echo Entered the install phase
+      # - apt-get update -y
+    # Commands specified in a finally block are run after commands in the commands block. The commands in a finally block are run even if a command in the commands block fails.
+    finally:
+      - echo This always runs even if the update or install command fails
+  pre_build:
+    commands:
+      - echo Entered the pre_build phase...
+  build:
+    commands:
+      - ls -altr
+      - printenv
+      - echo $INSTANCE_TYPE
+      - echo $AWS_REGION
+      - echo $CODEBUILD_BUILD_NUMBER
+      - echo Entered the build phase...
+      - echo Build started on `date`
+      - aws ec2 describe-instances
+    finally:
+      - echo This always runs even if the build command fails
+  post_build:
+    commands:
+      - echo Entered the post_build phase...
+      - echo Build completed on `date`
