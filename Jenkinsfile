@@ -16,7 +16,7 @@ pipeline {
             steps {
                 echo "Checking out branch ${params.BRANCH}..."
                 git branch: "${params.BRANCH}",
-                    url: 'https://github.com/PratikSuar97/Portfolio-AWS.git',
+                    url: 'https://github.com/PratikSuar97/Portfolio-AWS.git'
                     // credentialsId: 'github-pat-id' // replace with your Jenkins credential ID
             }
         }
